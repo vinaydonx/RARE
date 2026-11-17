@@ -1,0 +1,34 @@
+{
+  "name": "rareanimes-api",
+  "version": "4.1.0",
+  "description": "Ultra-Fast REST API for RareAnimes with Zipper Embed Unwrapper & Multi-Provider Support (Sevalla, Vercel & Heroku Ready)",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "anime",
+    "rareanimes",
+    "api",
+    "scraper",
+    "express",
+    "sevalla",
+    "vercel-serverless",
+    "embed-resolver",
+    "proxy-support"
+  ],
+  "author": "Sujal Chavda",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "undici": "^6.21.1"
+  }
+}
